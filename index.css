@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(30, 30, 66) !important;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif !important;
+}
+@keyframes absoluteBg {
+  0% {
+    background-color: rgb(30, 30, 66);
+    border-radius: 300px 0px 300px 0px;
+  }
+  25% {
+    background-color: rgb(77, 77, 204);
+    border-radius: 0px 300px 0px 300px;
+  }
+  50% {
+    background-color: rgb(30, 30, 66);
+    border-radius: 300px 0px 300px 0px;
+  }
+  75% {
+    background-color: rgb(77, 77, 204);
+    border-radius: 0px 300px 0px 300px;
+  }
+  100% {
+    background-color: rgb(30, 30, 66);
+    border-radius: 300px 0px 300px 0px;
+  }
+}
+
+nav {
+  background-color: cornflowerblue;
+  border-bottom: 1px solid cadetblue;
+}
+nav .absoluteBg {
+  width: 300px;
+  height: 150px;
+  border-radius: 300px 0px 300px 0px;
+  background-color: rgba(196, 196, 196, 1);
+  animation: absoluteBg;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+nav h1 {
+  animation: absoluteBg;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+.accountBox a {
+  text-decoration: none;
+}
+.accountBox span {
+  color: white;
+}
+.productsContainer {
+  margin: 0 auto;
+  width: 80%;
+  height: auto;
+}
+.card {
+  width: 47%;
+  background-color: #ffffff !important;
+  margin: 10px;
+  padding: 15px;
+  justify-content: space-between;
+  box-shadow: 2px 0px 8px 2px lightblue;
+}
+.card img{
+  align-self: center;
+  width: 50%;
+  height: 50%;
+}
+
+
