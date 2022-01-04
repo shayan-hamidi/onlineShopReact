@@ -1,0 +1,42 @@
+@media (max-width: 576px) {
+    nav{
+        padding: 10px 0px 10px 0px;   
+     }
+    .accountBox,.absoluteBg{
+        display: none;
+    }
+    .card{
+        width: 100%;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    nav{
+        padding: 10px 0px 10px 0px;   
+     }
+    .absoluteBg{
+        display: none;
+    }
+    .card{
+        width: 90%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1140px) { 
+    nav{
+        padding: 10px 0px 10px 0px;   
+     }
+     .absoluteBg{
+        display: none;
+    }
+    .card{
+        width: 43%;
+    }
+}
+
+@media (min-width: 1140px) { 
+
+    .card{
+        width: 30%;
+    }
+}

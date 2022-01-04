@@ -69,7 +69,10 @@ nav h1 {
 .card img{
   align-self: center;
   width: 50%;
-  height: 50%;
+  height: auto;
+  padding-top: 20px;
 }
-
+.cardBody p{
+  font-size: 13px;
+}
 
