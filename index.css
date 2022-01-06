@@ -66,11 +66,15 @@ nav h1 {
   justify-content: space-between;
   box-shadow: 2px 0px 8px 2px lightblue;
 }
+.productImgBox{
+  height: 280px;
+  display: flex;
+  justify-content: center;
+}
 .card img{
-  align-self: center;
-  width: 50%;
-  height: auto;
+  height: 270px;
   padding-top: 20px;
+  width: 70%;
 }
 .cardBody p{
   font-size: 13px;

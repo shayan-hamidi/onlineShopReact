@@ -70,11 +70,15 @@ const productRender = (item, index,data,setData) => {
   }
   return (
      <div className="card" key={index + 1}>
+       <div>
+       <div className="productImgBox">
        <img src={item.image} />
+       </div>
        <div className="cardBody mt-4">
          <h5 className="card-title">{item.title}</h5>
          <h2 className="badge bg-success">{item.price} {"$"}</h2>
          <p>{item.description}</p>
+       </div>
        </div>
        <div className="card-footer d-flex justify-content-between">
          <button className="btn btn-primary" onClick={() => updateHandler(item.id)}>
